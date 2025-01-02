@@ -1,0 +1,10 @@
+# consider commiting the .gitignore to your repository
+
+# ignore the build results
+bin/
+just/build/
+just/CMakeLists.txt
+just/*.cmake
+
+# don't include the linked libraries
+just/packages/vulkan/
